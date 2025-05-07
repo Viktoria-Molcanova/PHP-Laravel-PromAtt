@@ -144,7 +144,8 @@ return [
         ],
 
         'widgets' => [
-
+            \App\Admin\Widgets\ProductsWidget::class,
+            \App\Admin\Widgets\CategoriesWidget::class,
         ],
 
     ],
